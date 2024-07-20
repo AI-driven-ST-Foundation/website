@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 2em 1em;
+    background: #55586b;
+    color: #fff;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 1em;
+}
+
+.social-links a {
+    color: #2600ff;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.intro h2, .goal h2, .projects h2, .features h2, .partners h2 , .history h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.intro p, .goal p, .projects p, .features p, .partners p , .history p {
+    font-size: 1.2em;
+}
+
+.projects .project h3, .features .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.projects .project a, .features .feature a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.projects .project a:hover, .features .feature a:hover {
+    text-decoration: underline;
+}
+
+.hero, .goal, .intro, .projects, .features, .history {
+    padding: 0 3em;
+}
+
